@@ -21,28 +21,13 @@
     "module": "es6",
     "experimentalDecorators": true,
     "paths": {
-      "dummy/tests/*": [
-        "tests/*"
-      ],
-      "dummy/*": [
-        "tests/dummy/app/*",
-        "app/*"
-      ],
-      "ember-firestore": [
-        "addon"
-      ],
-      "ember-firestore/*": [
-        "addon/*"
-      ],
-      "ember-firestore/test-support": [
-        "addon-test-support"
-      ],
-      "ember-firestore/test-support/*": [
-        "addon-test-support/*"
-      ],
-      "*": [
-        "types/*"
-      ]
+      "dummy/tests/*": ["tests/*"],
+      "dummy/*": ["tests/dummy/app/*", "app/*"],
+      "ember-data-firestore": ["addon"],
+      "ember-data-firestore/*": ["addon/*"],
+      "ember-data-firestore/test-support": ["addon-test-support"],
+      "ember-data-firestore/test-support/*": ["addon-test-support/*"],
+      "*": ["types/*"]
     }
   },
   "include": [

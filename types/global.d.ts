@@ -1,6 +1,6 @@
 // Types for compiled templates
-declare module 'ember-firestore/templates/*' {
-  import { TemplateFactory } from 'htmlbars-inline-precompile';
+declare module "ember-data-firestore/templates/*" {
+  import { TemplateFactory } from "htmlbars-inline-precompile";
   const tmpl: TemplateFactory;
   export default tmpl;
 }
